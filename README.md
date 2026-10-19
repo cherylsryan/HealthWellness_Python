@@ -1,6 +1,5 @@
 # HealthWellness_Python
 
-README
 ==============
 Project Title:
 Health & Wellness Assistant (ZenTrack)

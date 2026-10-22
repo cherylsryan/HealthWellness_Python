@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
 
 """
 Health & Wellness Assistant
@@ -1210,7 +1205,6 @@ class StepCounterGUI(HealthModule):
                 values=(record["date"], record["steps"])
             )
 
-
 # ---------------- Main Health & Wellness Menu ----------------
 class HealthWellnessGUI:
     """
@@ -1226,11 +1220,6 @@ class HealthWellnessGUI:
         self.root = tk.Tk()
         self.root.configure(bg=main_bg)
         self.root.title("Health & Wellness Assistant")
-
-
-        # self.icon = tk.PhotoImage(file="Icon.png")
-        # self.root.iconphoto(True, self.icon)
-
 
         self.root.state("zoomed")   # maximize window
        
@@ -1306,30 +1295,14 @@ class HealthWellnessGUI:
         StepCounterGUI(self.root, self.show_main_menu)
 
 
-
-
     # ---------------- Run Application ----------------
     def run(self):
         self.root.mainloop()
 
 
-
-
 # ---------------- Run Main Menu ----------------
 if __name__ == "__main__":
     HealthWellnessGUI().run()
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

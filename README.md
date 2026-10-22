@@ -27,6 +27,7 @@ The system provides three main features:
    - Log steps manually
    - Display progress using a progress bar
    - Save step history persistently
+
 --------------------------------------------------
 System Requirements
 --------------------------------------------------
